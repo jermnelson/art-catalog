@@ -1,0 +1,28 @@
+{
+  "name": "art-catalog",
+  "version": "0.0.1",
+  "description": "Jeremy Nelson's Art Catalog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermnelson/art-catalog.git"
+  },
+  "keywords": [
+    "art",
+    "react",
+    "catalog"
+  ],
+  "author": "Jeremy Nelson",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jermnelson/art-catalog/issues"
+  },
+  "homepage": "https://github.com/jermnelson/art-catalog#readme",
+  "dependencies": {
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4"
+  }
+}
