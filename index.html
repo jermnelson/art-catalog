@@ -16,22 +16,29 @@
       h2 {
         font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
       }
+   .wrapper {
+        display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  	grid-gap: 10px;
+  	grid-auto-rows: minmax(100px, auto);
+    }
+
+   .artists {
+    }
+
+   .gallery {
+    }
     </style>
   </head>  
   <body>
-    <div class="glitchButton" style="float: right"></div><script src="https://button.glitch.me/button.js"></script>
     <h1>Art Catalog</h1>
-    <p>Open your dev console or <a href="/script.js">view source!</a></p>
-    <hr>
-    <div style="font-family: monospace;">
-      <h2>Timeago Example:</h2>
-      <p id="timeago-text"></p>
-
-      <h2>Slugy Example:</h2>
-      <p id="slugy-text"></p>
-
-      <h2>@emotion/hash Example:</h2>
-      <p id="hash-text"></p>
+    <div class="wrapper">
+	<div class="artists" id="artists">
+     	  <h2>Artists</h2> 
+	</div>
+        <div class="gallery">
+           <h2>Gallery</h2>
+        </div>
     </div>
     <script type="module" src="src/index.js" defer></script>
   </body>
